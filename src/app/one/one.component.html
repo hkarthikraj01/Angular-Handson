@@ -1,0 +1,17 @@
+<p>Hands One 4</p>
+<style>
+    span {
+      border: 2px solid black;
+      padding: 5px;
+      text-align: center;
+    }
+    </style>
+<div>
+    <button (click)="onClick()">Toggle</button>
+    <p [hidden]="bool">onClick Button!!</p>
+</div>
+<div>
+    
+    <p><input type="number" value="{{Count1}}" width="20"><button (click)="Add1()">Add 1 more</button></p>
+    <p><button (click)="Sub()">-</button> <input type="number" value="{{Count2}}" size="20"> <button (click)="Add2()">+</button></p>
+</div>
